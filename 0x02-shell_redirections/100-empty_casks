@@ -1,1 +1,2 @@
-find . -empty -printf '%P\n'
+find . -empty -type f -o -type d
+
